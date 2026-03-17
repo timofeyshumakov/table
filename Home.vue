@@ -35,7 +35,7 @@
             <v-col cols="12" sm="6" md="4">
               <v-card 
                 class="dashboard-card pa-4"
-                @click="openLink('https://ortonica.bitrix24.ru/bi/dashboard/detail/153/')"
+                @click="openLink('https://ortonica.bitrix24.ru/bi/dashboard/detail/151/')"
               >
                 <v-card-text class="text-center">
                   <v-icon size="48" color="green">mdi-chart-bar</v-icon>
