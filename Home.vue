@@ -78,18 +78,6 @@
             <v-col cols="12" sm="6" md="4">
               <v-card 
                 class="dashboard-card pa-4"
-                @click="openLink('https://ortonica.bitrix24.ru/marketplace/app/449/')"
-              >
-                <v-card-text class="text-center">
-                  <v-icon size="48" color="orange">mdi-chart-pie</v-icon>
-                  <h3 class="text-h6 mt-2">ПРМ для Сервиса</h3>
-                  <p class="text-caption mt-2">ПРМ для Сервиса</p>
-                </v-card-text>
-              </v-card>
-            </v-col>
-            <v-col cols="12" sm="6" md="4">
-              <v-card 
-                class="dashboard-card pa-4"
                 @click="openLink('https://ortonica.bitrix24.ru/bi/dashboard/detail/169/')"
               >
                 <v-card-text class="text-center">
@@ -132,6 +120,18 @@
                   </v-card-text>
                 </v-card>
               </a>
+            </v-col>
+            <v-col cols="12" sm="6" md="4">
+              <v-card 
+                class="dashboard-card pa-4"
+                @click="openLink('https://ortonica.bitrix24.ru/marketplace/app/449/')"
+              >
+                <v-card-text class="text-center">
+                  <v-icon size="48" color="orange">mdi-chart-pie</v-icon>
+                  <h3 class="text-h6 mt-2">ПРМ для Сервиса</h3>
+                  <p class="text-caption mt-2">Приложение постановки плана развития менеджеров Сервиса</p>
+                </v-card-text>
+              </v-card>
             </v-col>
           </v-row>
 
